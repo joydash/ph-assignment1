@@ -1,0 +1,21 @@
+/* this is universal css part  */
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+}
+
+/* universal css part end  */
+
+/* this is banner part css  */
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-photo{
+    width: 635px;
+    height: 800px;
+}
+
