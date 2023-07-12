@@ -11,11 +11,52 @@
 
 .banner{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
+
 .banner-photo{
     width: 635px;
-    height: 800px;
+    height: 800px; 
+    margin-top: 50px;
+    margin-right: 240px;  
 }
+.banner-text{
+    margin-left: 240px;
+    color: #272727;
+    font-family: Lato;
+    font-style: normal;
+    line-height: normal;
+}
+.banner-text h3{
+    color: #272727;
+font-family: Lato;
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.banner-text p{
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+.banner-text button{
+    border-radius: 8px;
+background: #E55473;
+padding: 20px 43px;
+font-weight: bold;
+color: #fff;
+margin-top: 10px;
+font-size: large;
+}
+
+/* this is banner part end  */
+
+
 
