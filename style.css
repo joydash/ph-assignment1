@@ -6,7 +6,7 @@
 
 /* universal css part end  */
 
-/* this is banner part css  */
+/* this is banner part  */
 .banner-section{
     width: 100%;
     height: auto;
@@ -91,6 +91,7 @@ line-height: 30px;
 margin-top: 10px;
 }
 
+
 /* this is section 2 end */
 
 
@@ -101,13 +102,67 @@ margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 240px;
+    margin-right: 240px;
 }
-.section3 .img1 .img2 .img3{
+.section3 .img1{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+    justify-content: center;
     align-items: center;
+    
 }
-.1mg1 h2{
-    margin-top: 100px;
+.section3 .img2{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15);
+    justify-content: center;
+    align-items: center;
+    
 }
+.section3 .img3{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(71, 125, 17, 0.15);
+    justify-content: center;
+    align-items: center;
+    
+}
+.section3 .img1 img{
+    width: 310px;
+    height: 428px;
+    margin-left: 70px;
+    margin-top: 110px;
+}
+.section3 .img2 img{
+    width: 310px;
+    height: 428px;
+    margin-left: 70px;
+    margin-top: 90px;
+}
+.section3 .img3 img{
+    width: 320px;
+    height: 428px;
+    margin-left: 70px;
+    margin-top: 110px;
+}
+.section3 p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: large;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
 
 /* section 3 end  */
 
@@ -166,14 +221,12 @@ margin-left: 646px;
 margin-top: 40px;
 color: #fff;
 font-size: large;
+}
 
 /* section 4 end  */
 
 
 /* this is section 5 start  */
-
-
-
 .section5{
     align-items: center;
 }
@@ -181,24 +234,40 @@ font-size: large;
 
 
 
-.section5 h1{
-    color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-}
-.section5 p{
-    color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
-}
+
 /* this is section 5 end  */
 
+/* section 6 start  */
+.section6{
+    width: 100%;
+    height: auto;
+}
+.imageGallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
 
+.section6 .imageGallery img{
+    width: 500px;
+    height: 396px;
+    margin-left: 50px;
+    display: block;
+    border: 2px solid red;
+    
+}
+
+
+/* section 6 end  */
+
+/* section 7 start  */
+.section7 .input{
+    background-image: url(img/Rectangle\ 9.png);
+}
+
+/* section 7 end  */
+
+/* footer section start  */
+footer h1{
+    text-align: center;
+}
