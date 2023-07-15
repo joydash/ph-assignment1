@@ -1,5 +1,5 @@
 /* this is universal css part  */
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -7,88 +7,92 @@
 /* universal css part end  */
 
 /* this is banner part  */
-.banner-section{
+.banner-section {
     width: 100%;
     height: auto;
     background-color: rgba(229, 84, 115, 0.10);
 }
-.banner{
+
+.banner {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.banner-photo{
+.banner-photo {
     width: 635px;
-    height: 800px; 
+    height: 800px;
     margin-top: 50px;
-    margin-right: 240px;  
+    margin-right: 240px;
     margin-left: 100px;
 }
-.banner-text{
+
+.banner-text {
     margin-left: 240px;
     color: #272727;
     font-family: Lato;
     font-style: normal;
     line-height: normal;
 }
-.banner-text h3{
+
+.banner-text h3 {
     color: #272727;
-font-family: Lato;
-font-size: 80px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
-.banner-text p{
+.banner-text p {
     color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 
-.banner-text button{
+.banner-text button {
     border-radius: 8px;
-background: #E55473;
-padding: 20px 43px;
-font-weight: bold;
-color: #fff;
-margin-top: 10px;
-font-size: large;
+    background: #E55473;
+    padding: 20px 43px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+    font-size: large;
 }
 
 /* this is banner part end  */
 
 /* this is section 2 start  */
 
-.section2{
+.section2 {
     text-align: center;
-    justify-content: center;   
-    margin-top: 175px; 
+    justify-content: center;
+    margin-top: 175px;
 }
-.section2 h3{
+
+.section2 h3 {
     color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 
 }
 
-.section2 p{
+.section2 p {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-margin-top: 10px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
 }
 
 
@@ -98,7 +102,7 @@ margin-top: 10px;
 
 /* this is section3 start  */
 
-.section3{
+.section3 {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -107,7 +111,8 @@ margin-top: 10px;
     margin-left: 240px;
     margin-right: 240px;
 }
-.section3 .img1{
+
+.section3 .img1 {
     width: 464px;
     height: 538px;
     flex-shrink: 0;
@@ -115,9 +120,10 @@ margin-top: 10px;
     background-color: rgba(167, 33, 98, 0.15);
     justify-content: center;
     align-items: center;
-    
+
 }
-.section3 .img2{
+
+.section3 .img2 {
     width: 464px;
     height: 538px;
     flex-shrink: 0;
@@ -125,9 +131,10 @@ margin-top: 10px;
     background-color: rgba(5, 151, 160, 0.15);
     justify-content: center;
     align-items: center;
-    
+
 }
-.section3 .img3{
+
+.section3 .img3 {
     width: 464px;
     height: 538px;
     flex-shrink: 0;
@@ -135,27 +142,31 @@ margin-top: 10px;
     background-color: rgba(71, 125, 17, 0.15);
     justify-content: center;
     align-items: center;
-    
+
 }
-.section3 .img1 img{
+
+.section3 .img1 img {
     width: 310px;
     height: 428px;
     margin-left: 70px;
     margin-top: 110px;
 }
-.section3 .img2 img{
+
+.section3 .img2 img {
     width: 310px;
     height: 428px;
     margin-left: 70px;
     margin-top: 90px;
 }
-.section3 .img3 img{
+
+.section3 .img3 img {
     width: 320px;
     height: 428px;
     margin-left: 70px;
     margin-top: 110px;
 }
-.section3 p{
+
+.section3 p {
     text-align: center;
     margin-top: 10px;
     font-size: large;
@@ -168,7 +179,7 @@ margin-top: 10px;
 
 /* section 4 start  */
 
-.section4{
+.section4 {
     width: 100%;
     height: auto;
     background-color: rgba(229, 84, 115, 0.10);
@@ -177,7 +188,8 @@ margin-top: 10px;
     align-items: center;
     padding-bottom: 100px;
 }
-.section4 .pic{
+
+.section4 .pic {
     width: 318px;
     height: 420px;
     margin-top: 100px;
@@ -185,91 +197,108 @@ margin-top: 10px;
 
 }
 
-.section4 .hot h1{
+.section4 .hot h1 {
     color: #272727;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-margin-left: 423px;
-margin-top: 230px;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 423px;
+    margin-top: 230px;
 }
 
-.section4 .hot p{
+.section4 .hot p {
     margin-left: 395px;
     margin-top: 40px;
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; 
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 
-.section4 .hot button{
+.section4 .hot button {
     display: inline-flex;
-padding: 20px 43px;
-align-items: flex-start;
-gap: 10px;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
 
-border-radius: 8px;
-background-color: #E55473;
-margin-left: 646px;
-margin-top: 40px;
-color: #fff;
-font-size: large;
+    border-radius: 8px;
+    background-color: #E55473;
+    margin-left: 646px;
+    margin-top: 40px;
+    color: #fff;
+    font-size: large;
 }
 
 /* section 4 end  */
 
 
 /* this is section 5 start  */
-.section5{
+.section5 {
     width: 100%;
     height: auto;
     margin-top: 128px;
     margin-bottom: 50px;
 }
-.section5 h1,p{
+
+.section5 h1,
+p {
     text-align: center;
     justify-content: center;
 }
-.section5 h1{
+
+.section5 h1 {
     color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-margin-bottom: 15px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 15px;
 }
-.section5 p{
+
+.section5 p {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
 }
 
 /* this is section 5 end  */
 
 /* section 6 start  */
-.section6{
+.section6 {
     width: 100%;
     height: auto;
-    margin-left: 240px;
+    margin-left: 220px;
     margin-right: 240px;
     margin-bottom: 80px;
-    display: flex; 
+    display: flex;
 
 }
-.imageGallery img{
-    margin-left: 24px;
+
+.imageGallery img {
+    margin-left: 20px;
+}
+
+.section7 .input h1 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 200px;
 }
 
 
@@ -277,13 +306,57 @@ line-height: 30px; /* 166.667% */
 /* section 6 end  */
 
 /* section 7 start  */
-.section7 .input{
-    background-image: url(img/Rectangle\ 9.png);
+.section7 {
+    /* width: 100%; */
+    margin-left: 240px;
+    margin-right: 240px;
 }
+
+.section7 .input {
+    background-image: url(img/Rectangle\ 9.png);
+    width: 1460px;
+    height: 449px;
+    flex-shrink: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    border-radius: 0;
+}
+
+.section7 .input p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.section7 input {
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: 400px;
+    margin-top: 20px;
+    width: 500px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.section7 button {
+    width: 120px;
+    height: 54px;
+    color: #FFF;
+    border-radius: 8px;
+    background: #E55473;
+}
+
 
 /* section 7 end  */
 
 /* footer section start  */
-footer h1{
+footer h1 {
     text-align: center;
 }
