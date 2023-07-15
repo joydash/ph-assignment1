@@ -205,10 +205,9 @@ font-family: Lato;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px; /* 166.667% */
-
-
+line-height: 30px; 
 }
+
 .section4 .hot button{
     display: inline-flex;
 padding: 20px 43px;
@@ -228,7 +227,33 @@ font-size: large;
 
 /* this is section 5 start  */
 .section5{
-    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 128px;
+    margin-bottom: 50px;
+}
+.section5 h1,p{
+    text-align: center;
+    justify-content: center;
+}
+.section5 h1{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 15px;
+}
+.section5 p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
 }
 
 
