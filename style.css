@@ -256,31 +256,22 @@ font-weight: 400;
 line-height: 30px; /* 166.667% */
 }
 
-
-
-
-
 /* this is section 5 end  */
 
 /* section 6 start  */
 .section6{
     width: 100%;
     height: auto;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 80px;
+    display: flex; 
+
 }
-.imageGallery{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;   
+.imageGallery img{
+    margin-left: 24px;
 }
 
-.section6 .imageGallery img{
-    width: 500px;
-    height: 396px;
-    margin-left: 50px;
-    display: block;
-    border: 2px solid red;
-    
-}
 
 
 /* section 6 end  */
