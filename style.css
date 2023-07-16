@@ -19,7 +19,7 @@ nav {
 ul {
     list-style-type: none;
     padding: 30px;
-    margin-left: 1300px;
+    margin-left: 950px;
 }
 
 li {
@@ -41,20 +41,22 @@ a {
     width: 100%;
     height: auto;
     background-color: rgba(229, 84, 115, 0.10);
+    
 }
 
 .banner {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-left: 240px;
+    margin-right: 240px; 
 }
 
 .banner-photo {
     width: 635px;
     height: 800px;
-    margin-top: 50px;
     margin-right: 240px;
-    margin-left: 100px;
+    
 }
 
 .banner-text {
@@ -62,6 +64,9 @@ a {
     color: #272727;
     font-style: normal;
     line-height: normal;
+    margin-right: 71px;
+   
+
 }
 
 .banner-text h3 {
@@ -70,6 +75,9 @@ a {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    width: 708px;
+    height: 288px;
+   
 }
 
 .banner-text p {
@@ -78,6 +86,8 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    width: 634px;
+    height: 90px;
 }
 
 .banner-text button {
@@ -133,9 +143,8 @@ a {
     justify-content: space-around;
     padding-top: 100px;
     padding-bottom: 100px;
-    margin-left: 240px;
-    margin-right: 240px;
 }
+
 
 .section3 .img1 {
     width: 464px;
@@ -145,6 +154,7 @@ a {
     background-color: rgba(167, 33, 98, 0.15);
     justify-content: center;
     align-items: center;
+    
 
 }
 
@@ -218,7 +228,7 @@ a {
     width: 318px;
     height: 420px;
     margin-top: 100px;
-    margin-right: 429px;
+    margin-right: 300px;
 
 }
 
@@ -228,12 +238,12 @@ a {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin-left: 423px;
+    margin-left: 240px;
     margin-top: 230px;
 }
 
 .section4 .hot p {
-    margin-left: 395px;
+    margin-left: 240px;
     margin-top: 40px;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -251,7 +261,7 @@ a {
 
     border-radius: 8px;
     background-color: #E55473;
-    margin-left: 646px;
+    margin-left: 446px;
     margin-top: 40px;
     color: #fff;
     font-size: large;
@@ -301,10 +311,10 @@ p {
 .section6 {
     width: 100%;
     height: auto;
-    margin-left: 220px;
-    margin-right: 240px;
     margin-bottom: 80px;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
@@ -312,24 +322,16 @@ p {
     margin-left: 20px;
 }
 
-.section7 .input h1 {
-    color: #272727;
-    text-align: center;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    margin-top: 200px;
-}
-
 /* section 6 end  */
 
 /* This is section 7 start  */
 
 .section7 {
-    margin-left: 240px;
+    margin-left: 50px;
     margin-right: 240px;
     margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .section7 .input {
@@ -341,6 +343,16 @@ p {
     overflow: hidden;
     background-repeat: no-repeat;
     border-radius: 0;
+}
+
+.section7 .input h1 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 200px;
 }
 
 .section7 .input p {
